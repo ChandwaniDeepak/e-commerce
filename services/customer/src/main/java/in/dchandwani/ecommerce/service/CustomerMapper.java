@@ -14,8 +14,8 @@ public class CustomerMapper {
         }
         return Customer.builder()
                 .id(request.id())
-                .firstName(request.firstname())
-                .lastName(request.lastname())
+                .firstName(request.firstName())
+                .lastName(request.lastName())
                 .email(request.email())
                 .address(request.address())
                 .build();

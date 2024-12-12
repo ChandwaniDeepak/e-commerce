@@ -8,7 +8,12 @@ Requirements
 - [Follow up] Email customer via an email, success or failure of transaction
 - [Business Growth] In a bid to streamline operations and promote growth within my business, I am looking to invest in the development of a dedicated application
 - [Goal] This app will serve to simplify business processes and contribute significantly to the overall efficiency and scalability of my online venture.
-  https://www.youtube.com/watch?v=jdeSV0GRvwI
+
+Helpful Youtube Videos
+- https://www.youtube.com/watch?v=jdeSV0GRvwI
+- https://www.youtube.com/watch?v=BVdQ3iuovg0
+- https://www.youtube.com/watch?v=6r-MpAWVw6c
+
 Schema
 
     - [Customer]
