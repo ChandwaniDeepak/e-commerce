@@ -4,7 +4,6 @@ import in.dchandwani.ecommerce.order.customer.CustomerClient;
 import in.dchandwani.ecommerce.order.exception.BusinessException;
 import in.dchandwani.ecommerce.kafka.order.OrderConfirmation;
 import in.dchandwani.ecommerce.kafka.order.OrderProducer;
-import in.dchandwani.ecommerce.order.model.OrderMapper;
 import in.dchandwani.ecommerce.order.payment.PaymentClient;
 import in.dchandwani.ecommerce.order.payment.PaymentRequest;
 import in.dchandwani.ecommerce.order.product.ProductClient;

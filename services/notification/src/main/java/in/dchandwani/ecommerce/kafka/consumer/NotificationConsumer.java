@@ -34,9 +34,9 @@ public class NotificationConsumer {
         );
 
         // send email
-        var customerName = paymentConfirmation.customerFirstName()
-                .concat(" ")
-                .concat(paymentConfirmation.customerLastName());
+        var customerName = paymentConfirmation.customerFirstName();
+//                .concat(" ")
+//                .concat(paymentConfirmation.customerLastName());
 
         emailService.sendPaymentSuccessEmail(
                 paymentConfirmation.customerEmail(),
@@ -61,9 +61,9 @@ public class NotificationConsumer {
         );
 
         // send email
-        var customerName = orderConfirmation.customer().firstName()
-                .concat(" ")
-                .concat(orderConfirmation.customer().lastName());
+        var customerName = orderConfirmation.customer().firstName();
+//                .concat(" ")
+//                .concat(orderConfirmation.customer().lastName());
 
         emailService.sendOrderConfirmationEmail(
                 orderConfirmation.customer().email(),

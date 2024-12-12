@@ -10,6 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Getter
 @Setter
 @Document
+@ToString
 public class Customer {
 
     @Id

@@ -14,6 +14,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @Document
+@ToString
 public class Notification {
 
     @Id

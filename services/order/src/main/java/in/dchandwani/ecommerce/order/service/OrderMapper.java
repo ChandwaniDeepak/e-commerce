@@ -1,5 +1,6 @@
-package in.dchandwani.ecommerce.order.model;
+package in.dchandwani.ecommerce.order.service;
 
+import in.dchandwani.ecommerce.order.model.Order;
 import in.dchandwani.ecommerce.order.request.OrderRequest;
 import in.dchandwani.ecommerce.order.response.OrderResponse;
 import org.springframework.stereotype.Service;
